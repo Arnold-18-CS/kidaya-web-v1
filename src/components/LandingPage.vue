@@ -107,7 +107,7 @@
           style="transform-origin: center" />
         <!-- User stats card -->
         <div :class="[
-          'rounded-xl shadow-lg px-4 py-2 flex items-center gap-3 4k:px-8 4k:py-4 4k:gap-6 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100',
+            'rounded-xl shadow-lg px-4 py-2 flex items-center gap-3 4k:px-8 4k:py-4 4k:gap-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-w-[180px] 4k:min-w-[260px]',
           isNarrow
             ? 'absolute bottom-4 left-1/2 -translate-x-1/2 top-auto right-auto'
             : 'absolute top-8 right-4 4k:top-20 4k:right-20'

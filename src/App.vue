@@ -1,11 +1,13 @@
 <script setup>
 import FeaturesSection from './components/FeaturesSection.vue';
+import KidayaPromotion from './components/KidayaPromotion.vue';
 import LandingPage from './components/LandingPage.vue'
 </script>
 
 <template>
   <LandingPage />
   <FeaturesSection />
+  <KidayaPromotion />
 </template>
 
 <style scoped></style>

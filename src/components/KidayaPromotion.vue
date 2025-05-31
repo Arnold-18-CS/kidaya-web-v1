@@ -1,10 +1,10 @@
 <template>
     <section class="relative font-urbanist">
         <!-- Decorative Image: Now at the top -->
-        <div class="pointer-events-none select-none absolute top-0 right-0 hidden lg:block w-1/2 max-w-xl z-30"
-            aria-hidden="true" style="--img-scale: min(1, (100vw - 300px) / 1000);">
-            <img src="/assets/computer-screen.svg" alt="" class="w-full h-auto object-contain" draggable="false"
-                style="transform: scale(var(--img-scale)); transform-origin: top right;" />
+        <div class="pointer-events-none select-none absolute top-0 right-10 hidden lg:block w-1/2 max-w-xl z-30"
+            aria-hidden="true">
+            <img src="/assets/computer-screen.svg" alt="" class="w-full h-auto object-contain computer-screen-img"
+                draggable="false" style="transform: scale(1); transform-origin: top right;" />
         </div>
 
         <!-- Main Content -->
@@ -116,7 +116,7 @@
                                 <img src="/assets/step3.svg" alt="Briefcase"
                                     class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
                             </div>
-                            
+
                             <div class="h-8"></div>
                         </div>
                         <div class="flex items-start space-x-3">
@@ -131,6 +131,16 @@
                     </div>
                 </div>
             </div>
+
+            <img src="/assets/happy-customer.svg" alt="Happy Customer" class="w-full mx-auto mt-16" draggable="false" />
         </section>
     </section>
 </template>
+
+<style scoped>
+@media (max-width: 1300px) {
+    .computer-screen-img {
+        transform: scale(0.5) !important;
+    }
+}
+</style>

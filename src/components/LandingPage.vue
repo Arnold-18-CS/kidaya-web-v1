@@ -9,20 +9,20 @@
     <nav class="flex justify-between items-center mb-14">
       <div class="flex items-center gap-3">
         <img src="/assets/logo.svg" alt="Kidaya Logo" class="h-9 w-9" />
-        <span class="text-2xl font-bold tracking-tight" :class="darkMode ? 'text-white' : 'text-gray-900'">Kidaya</span>
+        <span class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kidaya</span>
       </div>
       <div class="hidden md:flex gap-8">
-        <a href="#" :class="navLinkClass">Features</a>
-        <a href="#" :class="navLinkClass">Pricing</a>
-        <a href="#" :class="navLinkClass">Security</a>
-        <a href="#" :class="navLinkClass">Benefits</a>
+        <a href="#" class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Features</a>
+        <a href="#" class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Pricing</a>
+        <a href="#" class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Security</a>
+        <a href="#" class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Benefits</a>
       </div>
       <div class="flex items-center gap-4">
         <!-- Dark mode toggle -->
         <button @click="toggleDarkMode"
           class="rounded-full p-2 transition border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           :aria-label="darkMode ? 'Switch to light mode' : 'Switch to dark mode'">
-          <svg v-if="!darkMode" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none"
+          <svg v-if="!darkMode" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-900" fill="none"
             viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M12 3v1m0 16v1m8.66-13.66l-.71.71M4.05 19.07l-.71.71m16.97 0l-.71-.71M4.05 4.93l-.71-.71M21 12h1M2 12H1m16.24 7.07a9 9 0 11-8.48-16.14 7 7 0 008.48 16.14z" />
@@ -46,18 +46,16 @@
       <!-- LEFT -->
       <div class="space-y-8" :class="{ '4k:space-y-16': is4K }">
         <div>
-          <p class="text-sm font-semibold mb-2 tracking-wide uppercase 4k:text-base"
-            :class="darkMode ? 'text-purple-300' : 'text-purple-600'">
+          <p class="text-sm font-semibold mb-2 tracking-wide 4k:text-base text-purple-600 dark:text-purple-300">
             Log it. See it. Own it.
           </p>
-          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 4k:text-8xl"
-            :class="darkMode ? 'text-white' : 'text-gray-900'">
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 4k:text-8xl text-gray-900 dark:text-white">
             Know your
             <span class="underline decoration-purple-500 decoration-4 underline-offset-4">numbers</span>.<br />
             Grow your business
           </h1>
         </div>
-        <p class="text-lg max-w-xl 4k:text-2xl 4k:max-w-3xl" :class="darkMode ? 'text-gray-300' : 'text-gray-600'">
+        <p class="font-semibold text-lg max-w-xl 4k:text-2xl 4k:max-w-3xl text-gray-600 dark:text-gray-300">
           Kidaya is the simple, mobile-first money tracker built for African entrepreneurs—log sales in seconds, see
           your profits instantly, and unlock funding as you grow.
         </p>
@@ -66,8 +64,7 @@
             class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-7 py-3 rounded-full shadow transition 4k:px-12 4k:py-5 4k:text-xl">
             Try free trial
           </button>
-          <button class="flex items-center gap-2 font-medium transition 4k:text-lg"
-            :class="darkMode ? 'text-gray-200 hover:text-purple-300' : 'text-gray-800 hover:text-purple-600'">
+          <button class="flex items-center gap-2 font-medium transition 4k:text-lg text-gray-800 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">
             <img src="/assets/play.svg" alt="Demo Icon" class="w-6 h-6 4k:w-10 4k:h-10" />
             View Demo
           </button>
@@ -93,10 +90,8 @@
             </div>
           </a>
           <!-- Fast acceptance -->
-          <div class="flex items-center gap-2 text-sm mt-2 4k:text-lg 4k:gap-4"
-            :class="darkMode ? 'text-gray-400' : 'text-gray-500'">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 4k:h-7 4k:w-7"
-              :class="darkMode ? 'text-gray-500' : 'text-gray-400'" fill="none" viewBox="0 0 24 24"
+          <div class="flex items-center gap-2 text-sm mt-2 4k:text-lg text-gray-500 dark:text-gray-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 4k:h-7 4k:w-7 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M12 6v6l4 2m-6 6a9 9 0 110-18 9 9 0 010 18z" />
@@ -112,8 +107,7 @@
           style="transform-origin: center" />
         <!-- User stats card -->
         <div :class="[
-          'rounded-xl shadow-lg px-4 py-2 flex items-center gap-3 4k:px-8 4k:py-4 4k:gap-6',
-          darkMode ? 'bg-gray-800 text-gray-100' : 'bg-white text-gray-900',
+          'rounded-xl shadow-lg px-4 py-2 flex items-center gap-3 4k:px-8 4k:py-4 4k:gap-6 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100',
           isNarrow
             ? 'absolute bottom-4 left-1/2 -translate-x-1/2 top-auto right-auto'
             : 'absolute top-8 right-4 4k:top-20 4k:right-20'
@@ -128,20 +122,19 @@
           </div>
           <div>
             <p class="text-sm font-semibold 4k:text-2xl">120K+</p>
-            <p class="text-xs 4k:text-lg" :class="darkMode ? 'text-gray-400' : 'text-gray-500'">Active users</p>
+            <p class="text-xs 4k:text-lg text-gray-500 dark:text-gray-400">Active users</p>
           </div>
         </div>
         <!-- Payment card -->
         <div v-show="!isNarrow" :class="[
-          'absolute bottom-0 left-4 shadow-xl rounded-2xl px-5 py-4 w-64 4k:left-20 4k:bottom-10 4k:px-10 4k:py-8 4k:w-[420px]',
-          darkMode ? 'bg-gray-900 text-gray-100' : 'bg-white text-gray-900'
+          'absolute bottom-0 left-4 shadow-xl rounded-2xl px-5 py-4 w-64 4k:left-20 4k:bottom-10 4k:px-10 4k:py-8 4k:w-[420px] bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100'
         ]">
-          <p class="text-xs mb-1 4k:text-lg" :class="darkMode ? 'text-gray-400' : 'text-gray-400'">Payment Received</p>
-          <p class="text-lg font-semibold 4k:text-3xl" :class="darkMode ? 'text-purple-300' : 'text-purple-700'">
+          <p class="text-xs mb-1 4k:text-lg text-gray-400 dark:text-gray-400">Payment Received</p>
+          <p class="text-lg font-semibold 4k:text-3xl text-purple-700 dark:text-purple-300">
             +35,890.00</p>
           <div class="flex justify-between items-center text-sm mt-1 4k:text-xl">
-            <p :class="darkMode ? 'text-gray-400' : 'text-gray-500'">18th June 2025</p>
-            <p class="font-medium" :class="darkMode ? 'text-green-400' : 'text-green-600'">3.09% ⬈</p>
+            <p class="text-gray-500 dark:text-gray-400">18th June 2025</p>
+            <p class="font-medium text-green-600 dark:text-green-400">3.09% ⬈</p>
           </div>
         </div>
       </div>
@@ -150,7 +143,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, computed } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 
 const isNarrow = ref(window.innerWidth <= 980)
 const is4K = ref(window.innerWidth >= 2560)
@@ -169,15 +162,6 @@ function toggleDarkMode() {
     document.documentElement.classList.remove('dark')
   }
 }
-
-const navLinkClass = computed(() =>
-  [
-    'font-medium transition',
-    darkMode.value
-      ? 'text-gray-200 hover:text-purple-300'
-      : 'text-gray-700 hover:text-purple-600'
-  ].join(' ')
-)
 
 onMounted(() => {
   window.addEventListener('resize', handleResize)
@@ -362,10 +346,5 @@ onBeforeUnmount(() => {
   .\34 k\:text-3xl {
     font-size: 1.875rem;
   }
-}
-
-/* Dark mode overrides */
-:deep(.dark) {
-  background: linear-gradient(to right, #111827, #1f2937, #4c1d95) !important;
 }
 </style>

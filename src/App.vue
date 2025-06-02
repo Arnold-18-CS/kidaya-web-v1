@@ -2,6 +2,7 @@
 import FeaturesSection from './components/FeaturesSection.vue';
 import KidayaPromotion from './components/KidayaPromotion.vue';
 import LandingPage from './components/LandingPage.vue'
+import PricingSection from './components/PricingSection.vue';
 import SecuritySection from './components/SecuritySection.vue';
 </script>
 
@@ -10,6 +11,7 @@ import SecuritySection from './components/SecuritySection.vue';
   <FeaturesSection />
   <KidayaPromotion />
   <SecuritySection />
+  <PricingSection />
 </template>
 
 <style scoped></style>

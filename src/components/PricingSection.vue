@@ -12,9 +12,15 @@
             </div>
 
             <!-- Pricing Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div
+                class="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto md:overflow-x-visible -mx-4 px-4"
+                style="scroll-snap-type: x mandatory;"
+            >
                 <!-- Monthly Plan -->
-                <div class="bg-white dark:bg-purple-800 p-10 border-2 border-gray-200 dark:border-gray-300 rounded-lg shadow-md flex flex-col items-center">
+                <div
+                    class="bg-white dark:bg-purple-800 p-10 border-2 border-gray-200 dark:border-gray-300 rounded-lg shadow-md flex flex-col items-center min-w-[300px] md:min-w-0 flex-shrink-0"
+                    style="scroll-snap-align: start;"
+                >
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Monthly Plan</h3>
                     <p class="text-sm text-gray-600 dark:text-white mb-1">KES 500/month for 1–3 users</p>
                     <p class="text-sm text-gray-600 dark:text-white mb-4">KES 150 for every additional user</p>
@@ -30,7 +36,10 @@
                 </div>
 
                 <!-- 6-Month Plan -->
-                <div class="bg-gray-900 dark:bg-gray-600 p-10 border-2 border-gray-200 dark:border-white rounded-lg shadow-md flex flex-col items-center text-white">
+                <div
+                    class="bg-gray-900 dark:bg-gray-600 p-10 border-2 border-gray-200 dark:border-white rounded-lg shadow-md flex flex-col items-center text-white min-w-[300px] md:min-w-0 flex-shrink-0"
+                    style="scroll-snap-align: start;"
+                >
                     <h3 class="text-lg font-semibold mb-2">6-Month Plan</h3>
                     <p class="text-sm mb-1">KES 2,400 every 6 months for 1–3 users</p>
                     <p class="text-sm mb-4">KES 750 for every additional user</p>
@@ -47,7 +56,10 @@
                 </div>
 
                 <!-- 12-Month Plan -->
-                <div class="bg-white dark:bg-purple-800 p-10 border-2 border-gray-100 dark:border-gray-300 rounded-lg shadow-md flex flex-col items-center">
+                <div
+                    class="bg-white dark:bg-purple-800 p-10 border-2 border-gray-100 dark:border-gray-300 rounded-lg shadow-md flex flex-col items-center min-w-[300px] md:min-w-0 flex-shrink-0"
+                    style="scroll-snap-align: start;"
+                >
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">12-Month Plan (Best Value)</h3>
                     <p class="text-sm text-gray-600 dark:text-white first-letter:mb-1">KES 4,500/year for 1–3 users</p>
                     <p class="text-sm text-gray-600 dark:text-white first-letter:mb-4">KES 1,300 for every additional user</p> <br>

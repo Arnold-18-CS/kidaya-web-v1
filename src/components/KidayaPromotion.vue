@@ -93,13 +93,13 @@
                             </div>
                         </div>
                         <!-- Step 3 -->
-                        <div class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
+                        <div class="p-8 px-6 md:px-12 bg-orange-50 dark:bg-orange-900 rounded-lg shadow-md relative">
                             <div class="relative w-16 h-16 flex items-center justify-center">
                                 <span
                                     class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">03</span>
                                 <img src="/assets/step3.svg" alt="" class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
                             </div>
-                            <h3 class="text-lg font-semibold mt-8 mb-2 text-gray-900 dark:text-gray-100">Make Better Decisions
+                            <h3 class="text-lg font-semibold mt-8 mb-2 text-gray-900 dark:text-gray-100">Make Better Business Decisions
                             </h3>
                             <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                                 🤔 Use your insights to restock wisely, avoid overspending, and build toward funding-readiness.

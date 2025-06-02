@@ -1,5 +1,6 @@
 <script setup>
 import FeaturesSection from './components/FeaturesSection.vue';
+import FinalCTA from './components/FinalCTA.vue';
 import KidayaPromotion from './components/KidayaPromotion.vue';
 import LandingPage from './components/LandingPage.vue'
 import PricingSection from './components/PricingSection.vue';
@@ -14,6 +15,7 @@ import TestimonialSection from './components/TestimonialSection.vue';
   <SecuritySection />
   <PricingSection />
   <TestimonialSection />
+  <FinalCTA />
 </template>
 
 <style scoped></style>

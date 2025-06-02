@@ -14,8 +14,8 @@
             </p>
             <p>
                 <span class="font-bold">
-                    Kidaya is the everyday tool built for small and growing businesses
-                </span> <br>
+                    Kidaya is the everyday tool built for small and growing businesses.
+                </span>
                 It works like your notebook—but smarter. Log sales and expenses in seconds, see your profits instantly,
                 and build habits that unlock growth.
             </p>

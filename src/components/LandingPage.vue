@@ -117,7 +117,7 @@
             Try free trial
           </button>
           <button
-            class="flex items-center gap-2 font-medium transition 4k:text-lg text-gray-800 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">
+            class="flex items-center gap-2 font-medium transition 4k:text-lg text-gray-800 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300 dark:border-1 dark:border-white px-4 py-2 rounded-lg bg-transparent dark:bg-transparent hover:shadow-lg">
             <img src="/assets/play.svg" alt="Demo Icon" class="dark:text-white w-6 h-6 4k:w-10 4k:h-10" />
             View Demo
           </button>

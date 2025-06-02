@@ -51,7 +51,7 @@
       <div class="space-y-8" :class="{ '4k:space-y-16': is4K }">
         <div>
           <p class="text-sm font-semibold mb-2 tracking-wide 4k:text-base text-purple-600 dark:text-purple-300">
-            Log it. See it. Own it.
+            Track better. Plan smarter. Grow stronger.
           </p>
           <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 4k:text-8xl text-gray-900 dark:text-white">
             Is your
@@ -60,9 +60,10 @@
           </h1>
         </div>
         <p class="font-semibold text-lg max-w-xl 4k:text-2xl 4k:max-w-3xl text-gray-600 dark:text-gray-300">
-          Kidaya is a simple mobile tool built for small and growing business owners.
-          Track your sales and expenses, understand your profits,
-          and build the financial habits needed for sustainable growth—all from your phone.
+          If you're not sure, you're not alone. Many small business owners hustle daily without clear visibility into
+          their numbers. Kidaya brings clarity to your hustle with simple tools to stay on top of your business and grow
+          with confidence—all from your phone.
+
         </p>
         <div class="flex flex-wrap gap-5 items-center mt-4 4k:gap-10 4k:mt-8">
           <button
@@ -109,8 +110,7 @@
       <!-- RIGHT -->
       <div class="relative flex justify-center items-center">
         <img src="/assets/hero-girl.png" alt="Happy entrepreneur"
-          class="w-full max-w-md mx-auto scale-125 md:scale-150 4k:max-w-2xl 4k:scale-150"
-          loading="lazy"
+          class="w-full max-w-md mx-auto scale-125 md:scale-150 4k:max-w-2xl 4k:scale-150" loading="lazy"
           style="transform-origin: center" />
         <!-- User stats card -->
         <div :class="[

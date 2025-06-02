@@ -10,10 +10,6 @@
         <!-- Main Content -->
         <section
             class="relative z-10 py-24 px-6 md:px-20 font-urbanist bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-hidden">
-            <!-- Slogan -->
-            <p class="text-sm font-semibold text-purple-600 dark:text-purple-400 uppercase tracking-wide mb-2">
-                Log it. See it. Own it.
-            </p>
 
             <!-- Why Kidaya Heading + Description -->
             <div class="mb-20 max-w-2xl">

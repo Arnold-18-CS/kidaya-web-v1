@@ -1,18 +1,20 @@
 <template>
     <section class="bg-gray-100 dark:bg-gray-800 py-16 px-6 md:px-16 font-urbanist relative">
         <div class="max-w-6xl mx-auto">
-            <div class="flex flex-col md:flex-row items-start gap-8 md:mr-4 md:pr-4">
+            <div class="flex flex-col md:flex-row items-start gap-8 md:mr-0 md:pr-0">
                 <!-- Header and Navigation (Left, stacked) -->
-                <div class="md:w-4/5 w-full flex flex-col md:mr-24">
+                <div class="md:basis-2/5 md:w-2/5 w-full flex flex-col md:mr-8">
                     <div>
-                        <p class="text-sm font-semibold text-purple-600 dark:text-purple-300 uppercase tracking-wide mb-3">
+                        <p
+                            class="text-sm font-semibold text-purple-600 dark:text-purple-300 uppercase tracking-wide mb-3">
                             Testimonial
                         </p>
                         <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white max-w-3xl mx-auto">
-                    Trusted by entrepreneurs like you.
-                </h2>
+                            Trusted by entrepreneurs like you.
+                        </h2>
                         <p class="text-base md:text-lg text-gray-600 dark:text-gray-300 mt-4 max-w-xl">
-                            Hear from small and growing business owners who’ve used Kidaya to take control of their finances,
+                            Hear from small and growing business owners who’ve used Kidaya to take control of their
+                            finances,
                             reduce stress, and make smarter decisions.
                         </p>
                     </div>
@@ -20,36 +22,24 @@
                     <div class="flex flex-row items-center gap-4 mt-8">
                         <button
                             class="w-12 h-12 bg-gray-100 border-gray-300 border-2 dark:bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-600 transition duration-200"
-                            @click="prev"
-                            :aria-disabled="isPrevDisabled"
-                            :tabindex="isPrevDisabled ? -1 : 0"
-                            :class="{ 'opacity-50 cursor-not-allowed': isPrevDisabled }"
-                        >
+                            @click="prev" :aria-disabled="isPrevDisabled" :tabindex="isPrevDisabled ? -1 : 0"
+                            :class="{ 'opacity-50 cursor-not-allowed': isPrevDisabled }">
                             <span class="text-gray-900 dark:text-gray-100">&lt;</span>
                         </button>
                         <button
                             class="w-12 h-12 bg-gray-900 dark:bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-900 dark:hover:bg-gray-600 transition duration-200"
-                            @click="next"
-                            :aria-disabled="isNextDisabled"
-                            :tabindex="isNextDisabled ? -1 : 0"
-                            :class="{ 'opacity-50 cursor-not-allowed': isNextDisabled }"
-                        >
+                            @click="next" :aria-disabled="isNextDisabled" :tabindex="isNextDisabled ? -1 : 0"
+                            :class="{ 'opacity-50 cursor-not-allowed': isNextDisabled }">
                             <span class="text-white dark:text-gray-100">&gt;</span>
                         </button>
                     </div>
                 </div>
                 <!-- Testimonial Cards (Right) -->
-                <div class="md:w-2/3 w-full">
-                    <div
-                        ref="carousel"
-                        class="flex overflow-x-auto gap-6 scrollbar-hide snap-x snap-mandatory"
-                        style="scroll-behavior: smooth; min-width: 0;"
-                    >
-                        <div
-                            v-for="(testimonial, idx) in visibleTestimonials"
-                            :key="testimonial.name + idx"
-                            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md flex-1 min-w-[320px] max-w-sm snap-center"
-                        >
+                <div class="md:basis-3/5 md:w-3/5 w-full">
+                    <div ref="carousel" class="flex overflow-x-auto gap-6 scrollbar-hide snap-x snap-mandatory"
+                        style="scroll-behavior: smooth; min-width: 0;">
+                        <div v-for="(testimonial, idx) in visibleTestimonials" :key="testimonial.name + idx"
+                            class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md flex-1 min-w-[320px] max-w-sm snap-center">
                             <div class="flex items-center mb-4">
                                 <span class="text-yellow-400" aria-label="5 stars">★★★★★</span>
                             </div>
@@ -57,13 +47,15 @@
                                 {{ testimonial.text }}
                             </p>
                             <div class="flex items-center">
-                                <div class="w-10 h-10 bg-gray-300 dark:bg-gray-600 rounded-full mr-3 flex items-center justify-center">
+                                <div
+                                    class="w-10 h-10 bg-gray-300 dark:bg-gray-600 rounded-full mr-3 flex items-center justify-center">
                                     <span class="text-gray-500 dark:text-gray-400 text-lg font-bold">
                                         {{ initials(testimonial.name) }}
                                     </span>
                                 </div>
                                 <div>
-                                    <p class="text-sm font-semibold text-gray-900 dark:text-gray-100">{{ testimonial.name }}</p>
+                                    <p class="text-sm font-semibold text-gray-900 dark:text-gray-100">{{
+                                        testimonial.name }}</p>
                                     <p class="text-xs text-gray-500 dark:text-gray-400">{{ testimonial.company }}</p>
                                 </div>
                             </div>
@@ -134,6 +126,7 @@ const isNextDisabled = computed(() => testimonials.length <= visibleCount)
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
+
 .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;

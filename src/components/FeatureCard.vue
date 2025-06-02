@@ -11,13 +11,14 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-const darkMode = ref(document.documentElement.classList.contains('dark'))
+const darkMode = ref(false)
 
 const observer = new MutationObserver(() => {
   darkMode.value = document.documentElement.classList.contains('dark')
 })
 
 onMounted(() => {
+  darkMode.value = document.documentElement.classList.contains('dark')
   observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
 })
 

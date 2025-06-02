@@ -97,7 +97,7 @@
             </div>
           </a>
           <!-- Fast acceptance -->
-          <div class="flex items-center gap-2 text-sm mt-2 4k:text-lg text-gray-500 dark:text-gray-400">
+          <div class="flex items-center gap-2 text-base mt-10 4k:text-lg text-gray-500 dark:text-gray-400">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 4k:h-7 4k:w-7 text-gray-400 dark:text-gray-500"
               fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -120,9 +120,9 @@
             : 'absolute top-8 right-4 4k:top-20 4k:right-20'
         ]">
           <div class="flex -space-x-2 4k:-space-x-4">
-            <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/avatar1.svg"
+            <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/avatar1.jpg"
               alt="User 1" />
-            <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/avatar2.svg"
+            <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/avatar1.svg"
               alt="User 2" />
             <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/avatar3.svg"
               alt="User 3" />

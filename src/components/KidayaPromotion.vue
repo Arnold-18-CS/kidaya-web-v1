@@ -1,7 +1,7 @@
 <template>
     <section class="relative font-urbanist">
         <!-- Decorative Image: Now at the top -->
-        <div class="pointer-events-none select-none absolute top-0 right-10 hidden lg:block w-1/2 max-w-xl z-30"
+        <div class="pointer-events-none select-none absolute top-0 right-5 hidden lg:block w-1/3 max-w-xl z-30"
             aria-hidden="true">
             <img src="/assets/computer-screen.png" alt="" class="w-full h-auto object-contain computer-screen-img"
                 draggable="false" style="transform: scale(1); transform-origin: top right;" />
@@ -13,10 +13,13 @@
 
             <!-- Why Kidaya Heading + Description -->
             <div class="mb-20 max-w-2xl">
-                <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Why Kidaya</h2>
-                <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">Clarity is powerful. And you
-                    deserve it.
+                <h3 class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 uppercase mb-2 tracking-widest">
+                    Why Kidaya?
                 </h3>
+                <h2
+                    class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-8 max-w-4xl mx-auto leading-tight">
+                    Clarity is powerful and you deserves it.
+                </h2>
                 <p class="text-lg text-gray-700 dark:text-gray-300">
                     We built Kidaya because too many great businesses struggle simply because they don’t have visibility
                     into their numbers.
@@ -40,12 +43,9 @@
                         </h2>
                     </div>
                     <div class="mt-6 md:mt-0 md:ml-8 flex-shrink-0">
-                        <a
-                            href="https://play.google.com/store/apps/details?id=com.kidaya.app"
-                            target="_blank"
+                        <a href="https://play.google.com/store/apps/details?id=com.kidaya.app" target="_blank"
                             rel="noopener"
-                            class="inline-block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full transition duration-200 w-full md:w-auto text-center"
-                        >
+                            class="inline-block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full transition duration-200 w-full md:w-auto text-center">
                             Get Started Now
                         </a>
                     </div>
@@ -55,11 +55,12 @@
                     <div
                         class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 md:p-16 mx-auto relative">
                         <!-- Step 1 -->
-                        <div class="p-8 px-6 md:px-12 bg-purple-200 dark:bg-purple-900 rounded-lg shadow-md relative">
+                        <div class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
                             <div class="relative w-16 h-16 flex items-center justify-center">
                                 <span
                                     class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">01</span>
-                                <img src="/assets/step1.svg" alt="" class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
+                                <img src="/assets/step1.svg" alt=""
+                                    class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
                             </div>
                             <h3 class="text-lg font-semibold mt-8 mb-2 text-gray-900 dark:text-gray-100">Download Kidaya
                                 from Play Store</h3>
@@ -73,15 +74,18 @@
                             </div>
                         </div>
                         <!-- Step 2 -->
-                        <div class="p-8 px-6 md:px-12 bg-pink-200 dark:bg-pink-900 rounded-lg shadow-md relative">
+                        <div class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
                             <div class="relative w-16 h-16 flex items-center justify-center">
                                 <span
                                     class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">02</span>
-                                <img src="/assets/step2.svg" alt="" class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
+                                <img src="/assets/step2.svg" alt=""
+                                    class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
                             </div>
-                            <h3 class="text-lg font-semibold mt-8 mb-2 text-gray-900 dark:text-gray-100">See Your Financial Snapshot</h3>
+                            <h3 class="text-lg font-semibold mt-8 mb-2 text-gray-900 dark:text-gray-100">See Your
+                                Financial Snapshot</h3>
                             <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                                📈 Kidaya instantly shows your cash flow, profits, and balances—no calculators, no spreadsheets.
+                                📈 Kidaya instantly shows your cash flow, profits, and balances—no calculators, no
+                                spreadsheets.
                             </p>
                             <!-- Divider right (after step 2) -->
                             <div
@@ -89,20 +93,25 @@
                             </div>
                         </div>
                         <!-- Step 3 -->
-                        <div class="p-8 px-6 md:px-12 bg-orange-50 dark:bg-orange-900 rounded-lg shadow-md relative">
+                        <div class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
                             <div class="relative w-16 h-16 flex items-center justify-center">
                                 <span
                                     class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">03</span>
-                                <img src="/assets/step3.svg" alt="" class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
+                                <img src="/assets/step3.svg" alt=""
+                                    class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
                             </div>
-                            <h3 class="text-lg font-semibold mt-8 mb-2 text-gray-900 dark:text-gray-100">Make Better Business Decisions
+                            <h3 class="text-lg font-semibold mt-8 mb-2 text-gray-900 dark:text-gray-100">Make Better
+                                Business Decisions
                             </h3>
                             <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                                🤔 Use your insights to restock wisely, avoid overspending, and build toward funding-readiness.
+                                🤔 Use your insights to restock wisely, avoid overspending, and build toward
+                                funding-readiness.
                             </p>
                         </div>
                     </div>
-                    <img src="/assets/happy-customer.jpg" alt="Happy Kidaya customer" class="w-full mx-auto mt-20 rounded-3xl object-cover max-h-[600px]" draggable="false" loading="lazy" />
+                    <img src="/assets/happy-customer.jpg" alt="Happy Kidaya customer"
+                        class="mx-auto mt-20 rounded-3xl object-cover" style="width: 1150px; max-width: 100%;" draggable="false"
+                        loading="lazy" />
                 </div>
             </div>
         </section>

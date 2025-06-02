@@ -4,6 +4,7 @@ import KidayaPromotion from './components/KidayaPromotion.vue';
 import LandingPage from './components/LandingPage.vue'
 import PricingSection from './components/PricingSection.vue';
 import SecuritySection from './components/SecuritySection.vue';
+import TestimonialSection from './components/TestimonialSection.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import SecuritySection from './components/SecuritySection.vue';
   <KidayaPromotion />
   <SecuritySection />
   <PricingSection />
+  <TestimonialSection />
 </template>
 
 <style scoped></style>

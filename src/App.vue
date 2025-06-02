@@ -7,10 +7,12 @@ import MainFooter from './components/MainFooter.vue';
 import PricingSection from './components/PricingSection.vue';
 import SecuritySection from './components/SecuritySection.vue';
 import TestimonialSection from './components/TestimonialSection.vue';
+import WhatKidaya from './components/WhatKidaya.vue';
 </script>
 
 <template>
   <LandingPage />
+  <WhatKidaya />
   <FeaturesSection />
   <KidayaPromotion />
   <SecuritySection />

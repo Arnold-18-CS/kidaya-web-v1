@@ -8,7 +8,7 @@
                         Security
                     </p>
                     <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white max-w-3xl">
-                        Your Business Data, Safe and Secure
+                        Your business data, safe and secure
                     </h2>
                     <p class="text-base md:text-lg text-gray-600 dark:text-gray-300 mt-4 max-w-xl">
                         We take your financial privacy seriously. Kidaya uses top-tier security tools to keep your data

@@ -4,7 +4,7 @@
             What is Kidaya?
         </h3>
         <h2
-            class="text-3xl capitalize sm:text-4xl font-bold text-gray-900 dark:text-white mb-8 max-w-4xl mx-auto leading-tight">
+            class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-8 max-w-4xl mx-auto leading-tight">
             Running a business is hard. Flying blind makes it harder.
         </h2>
         <div class="max-w-5xl mx-auto text-left text-gray-700 dark:text-gray-200 text-base sm:text-lg space-y-5">

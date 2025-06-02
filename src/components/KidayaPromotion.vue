@@ -29,7 +29,8 @@
             </div>
         </section>
 
-        <section class="bg-gray-100 dark:bg-gray-800 py-24 px-6 md:px-20">
+        <section class="bg-gray-100 dark:bg-gray-800 py-24 px-6 md:px-20"
+            style="background-image: url('/assets/how-mobile-bg.svg'); background-size: cover; background-position: center;">
             <!-- How It Works Section -->
             <div class="mt-24">
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-12">
@@ -43,20 +44,20 @@
                         </h2>
                     </div>
                     <div class="mt-6 md:mt-0 md:ml-8 flex-shrink-0">
-                        <a href="https://play.google.com/store/apps/details?id=com.kidaya.app" target="_blank"
-                            rel="noopener"
-                            class="inline-block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full transition duration-200 w-full md:w-auto text-center">
+                        <a href="#" target="_blank" rel="noopener"
+                            class="px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full transition duration-200 w-full md:w-auto text-center hidden md:inline-block">
                             Get Started Now
                         </a>
                     </div>
                 </div>
 
-                <div class="text-left pb-12 md:pt-10 md:pb-20 max-w-7xl mx-auto">
+                <div class="text-center md:text-left pb-12 md:pt-8 md:pb-16 max-w-7xl mx-auto">
                     <div
-                        class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 md:p-16 mx-auto relative">
+                        class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 md:p-16 mx-auto relative text-center md:text-left">
                         <!-- Step 1 -->
-                        <div class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
-                            <div class="relative w-16 h-16 flex items-center justify-center">
+                        <div
+                            class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative flex flex-col items-center md:items-start text-center md:text-left">
+                            <div class="relative w-16 h-16 flex items-center justify-center mx-auto md:mx-0">
                                 <span
                                     class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">01</span>
                                 <img src="/assets/step1.svg" alt=""
@@ -74,8 +75,9 @@
                             </div>
                         </div>
                         <!-- Step 2 -->
-                        <div class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
-                            <div class="relative w-16 h-16 flex items-center justify-center">
+                        <div
+                            class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative flex flex-col items-center md:items-start text-center md:text-left">
+                            <div class="relative w-16 h-16 flex items-center justify-center mx-auto md:mx-0">
                                 <span
                                     class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">02</span>
                                 <img src="/assets/step2.svg" alt=""
@@ -93,8 +95,9 @@
                             </div>
                         </div>
                         <!-- Step 3 -->
-                        <div class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
-                            <div class="relative w-16 h-16 flex items-center justify-center">
+                        <div
+                            class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative flex flex-col items-center md:items-start text-center md:text-left">
+                            <div class="relative w-16 h-16 flex items-center justify-center mx-auto md:mx-0">
                                 <span
                                     class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">03</span>
                                 <img src="/assets/step3.svg" alt=""
@@ -109,9 +112,12 @@
                             </p>
                         </div>
                     </div>
-                    <img src="/assets/happy-customer.jpg" alt="Happy Kidaya customer"
-                        class="mx-auto mt-20 rounded-3xl object-cover" style="width: 1150px; max-width: 100%;" draggable="false"
-                        loading="lazy" />
+                    <div class="flex justify-center">
+                        <img src="/assets/happy-customer.jpg" alt="Happy Kidaya customer"
+                            class="hidden md:inline-block mt-10 rounded-3xl object-cover"
+                            style="width: 1150px; max-width: 100%;"
+                            draggable="false" loading="lazy" />
+                    </div>
                 </div>
             </div>
         </section>

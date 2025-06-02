@@ -3,6 +3,7 @@ import FeaturesSection from './components/FeaturesSection.vue';
 import FinalCTA from './components/FinalCTA.vue';
 import KidayaPromotion from './components/KidayaPromotion.vue';
 import LandingPage from './components/LandingPage.vue'
+import MainFooter from './components/MainFooter.vue';
 import PricingSection from './components/PricingSection.vue';
 import SecuritySection from './components/SecuritySection.vue';
 import TestimonialSection from './components/TestimonialSection.vue';
@@ -16,6 +17,7 @@ import TestimonialSection from './components/TestimonialSection.vue';
   <PricingSection />
   <TestimonialSection />
   <FinalCTA />
+  <MainFooter />
 </template>
 
 <style scoped></style>

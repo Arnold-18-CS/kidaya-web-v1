@@ -6,19 +6,19 @@
                 <p class="text-sm font-semibold text-purple-600 dark:text-purple-300 uppercase tracking-wide">
                     Pricing
                 </p>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white max-w-3xl mx-auto leading-relaxed">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white max-w-3xl mx-auto">
                     Simple plans for growing businesses
                 </h2>
             </div>
 
             <!-- Pricing Cards -->
             <div
-                class="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto md:overflow-x-visible -mx-4 px-4"
+                class="flex gap-6 overflow-x-auto md:overflow-x-auto lg:grid lg:grid-cols-3 lg:overflow-x-visible -mx-4 px-4"
                 style="scroll-snap-type: x mandatory;"
             >
                 <!-- Monthly Plan -->
                 <div
-                    class="bg-white dark:bg-purple-800 p-10 border-2 border-gray-200 dark:border-gray-300 rounded-lg shadow-md flex flex-col items-center min-w-[300px] md:min-w-0 flex-shrink-0"
+                    class="bg-white dark:bg-purple-800 p-10 border-2 border-gray-200 dark:border-gray-300 rounded-lg shadow-md flex flex-col items-center min-w-[300px] md:min-w-[300px] lg:min-w-0 flex-shrink-0"
                     style="scroll-snap-align: start;"
                 >
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Monthly Plan</h3>
@@ -37,7 +37,7 @@
 
                 <!-- 6-Month Plan -->
                 <div
-                    class="bg-gray-900 dark:bg-gray-600 p-10 border-2 border-gray-200 dark:border-white rounded-lg shadow-md flex flex-col items-center text-white min-w-[300px] md:min-w-0 flex-shrink-0"
+                    class="bg-gray-900 dark:bg-gray-600 p-10 border-2 border-gray-200 dark:border-white rounded-lg shadow-md flex flex-col items-center text-white min-w-[300px] md:min-w-[300px] lg:min-w-0 flex-shrink-0"
                     style="scroll-snap-align: start;"
                 >
                     <h3 class="text-lg font-semibold mb-2">6-Month Plan</h3>
@@ -57,7 +57,7 @@
 
                 <!-- 12-Month Plan -->
                 <div
-                    class="bg-white dark:bg-purple-800 p-10 border-2 border-gray-100 dark:border-gray-300 rounded-lg shadow-md flex flex-col items-center min-w-[300px] md:min-w-0 flex-shrink-0"
+                    class="bg-white dark:bg-purple-800 p-10 border-2 border-gray-100 dark:border-gray-300 rounded-lg shadow-md flex flex-col items-center min-w-[300px] md:min-w-[300px] lg:min-w-0 flex-shrink-0"
                     style="scroll-snap-align: start;"
                 >
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">12-Month Plan (Best Value)</h3>

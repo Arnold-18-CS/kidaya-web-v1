@@ -8,9 +8,9 @@
                         <p class="text-sm font-semibold text-purple-600 dark:text-purple-300 uppercase tracking-wide mb-3">
                             Testimonial
                         </p>
-                        <h2 class="md:text-5xl font-extrabold text-gray-900 dark:text-white max-w-3xl">
-                            Trusted by entrepreneurs like you
-                        </h2>
+                        <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white max-w-3xl mx-auto">
+                    Trusted by entrepreneurs like you.
+                </h2>
                         <p class="text-base md:text-lg text-gray-600 dark:text-gray-300 mt-4 max-w-xl">
                             Hear from small and growing business owners who’ve used Kidaya to take control of their finances,
                             reduce stress, and make smarter decisions.
@@ -99,8 +99,6 @@ const testimonials = [
 const carousel = ref(null)
 const current = ref(0)
 const visibleCount = 3
-
-const total = computed(() => testimonials.length)
 
 const visibleTestimonials = computed(() => {
     // Always show visibleCount testimonials, starting from current

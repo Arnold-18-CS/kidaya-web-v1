@@ -53,7 +53,7 @@
 
                 <div class="text-center md:text-left pb-12 md:pt-8 md:pb-16 max-w-7xl mx-auto">
                     <div
-                        class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 md:p-16 mx-auto relative text-center md:text-left">
+                        class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 md:p-16 mx-auto relative text-center md:text-left">
                         <!-- Step 1 -->
                         <div
                             class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative flex flex-col items-center md:items-start text-center md:text-left">
@@ -71,7 +71,7 @@
                             </p>
                             <!-- Divider right (only after step 1) -->
                             <div
-                                class="hidden md:block absolute top-10 bottom-10 right-[-15px] w-[2px] bg-gray-100 dark:bg-gray-700">
+                                class="hidden lg:block absolute top-10 bottom-10 right-[-15px] w-[2px] bg-gray-100 dark:bg-gray-700">
                             </div>
                         </div>
                         <!-- Step 2 -->
@@ -91,7 +91,7 @@
                             </p>
                             <!-- Divider right (after step 2) -->
                             <div
-                                class="hidden md:block absolute top-10 bottom-10 right-[-15px] w-[2px] bg-gray-100 dark:bg-gray-700">
+                                class="hidden lg:block absolute top-10 bottom-10 right-[-15px] w-[2px] bg-gray-100 dark:bg-gray-700">
                             </div>
                         </div>
                         <!-- Step 3 -->

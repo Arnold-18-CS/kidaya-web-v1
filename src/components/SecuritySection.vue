@@ -21,7 +21,7 @@
 
             <!-- Feature Cards -->
             <div
-                class="grid grid-cols-1 md:grid-cols-3 gap-6 bg-gray-200 dark:bg-gray-800 rounded-2xl shadow-lg p-8 md:p-16 mx-auto">
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-gray-200 dark:bg-gray-800 rounded-2xl shadow-lg p-8 md:p-16 mx-auto">
                 <SecurityCard title="Two-factor authentication"
                     description="Extra protection with verification steps to ensure only you can access your account."
                     dotClass="bg-blue-500" outerCircleClass="bg-blue-500 opacity-10" showDivider />

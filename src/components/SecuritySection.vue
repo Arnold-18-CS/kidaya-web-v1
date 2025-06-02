@@ -2,7 +2,7 @@
     <section class="bg-gray-50 dark:bg-gray-900 py-16 px-6 md:px-16 font-urbanist">
         <div class="max-w-6xl mx-auto">
             <!-- Header and Button -->
-            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-12">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-10 gap-0">
                 <div>
                     <p class="text-sm font-semibold text-purple-600 dark:text-purple-300 uppercase tracking-wide mb-3">
                         Security
@@ -10,23 +10,18 @@
                     <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white max-w-3xl">
                         Your business data, safe and secure
                     </h2>
-                    <p class="text-base md:text-lg text-gray-600 dark:text-gray-300 mt-4 max-w-xl">
+                </div>
+                <div class="mt-6 md:mt-0 md:ml-8 flex-shrink-0">
+                    <p class="text-base md:text-lg text-gray-600 dark:text-gray-300 mt-4 max-w-xs md:max-w-sm break-words">
                         We take your financial privacy seriously. Kidaya uses top-tier security tools to keep your data
                         safe.
                     </p>
-                </div>
-                <div class="mt-6 md:mt-0 md:ml-8 flex-shrink-0">
-                    <button
-                        class="px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full transition duration-200 w-full md:w-auto"
-                        type="button">
-                        Get Started Now
-                    </button>
                 </div>
             </div>
 
             <!-- Feature Cards -->
             <div
-                class="grid grid-cols-1 md:grid-cols-3 gap-6 bg-gray-100 dark:bg-gray-800 rounded-2xl shadow-lg p-8 md:p-16 mx-auto">
+                class="grid grid-cols-1 md:grid-cols-3 gap-6 bg-gray-200 dark:bg-gray-800 rounded-2xl shadow-lg p-8 md:p-16 mx-auto">
                 <SecurityCard title="Two-factor authentication"
                     description="Extra protection with verification steps to ensure only you can access your account."
                     dotClass="bg-blue-500" outerCircleClass="bg-blue-500 opacity-10" showDivider />

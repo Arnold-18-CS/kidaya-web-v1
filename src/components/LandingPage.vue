@@ -12,10 +12,14 @@
         <span class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kidaya</span>
       </div>
       <div class="hidden md:flex gap-8">
-        <a href="#" class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Features</a>
-        <a href="#" class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Pricing</a>
-        <a href="#" class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Security</a>
-        <a href="#" class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Benefits</a>
+        <a href="#"
+          class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Features</a>
+        <a href="#"
+          class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Pricing</a>
+        <a href="#"
+          class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Security</a>
+        <a href="#"
+          class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Benefits</a>
       </div>
       <div class="flex items-center gap-4">
         <!-- Dark mode toggle -->
@@ -50,21 +54,23 @@
             Log it. See it. Own it.
           </p>
           <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 4k:text-8xl text-gray-900 dark:text-white">
-            Know your
-            <span class="underline decoration-purple-500 decoration-4 underline-offset-4">numbers</span>.<br />
-            Grow your business
+            Is your
+            <span class="underline decoration-purple-500 decoration-4 underline-offset-4">business</span><br />
+            really making a profit?
           </h1>
         </div>
         <p class="font-semibold text-lg max-w-xl 4k:text-2xl 4k:max-w-3xl text-gray-600 dark:text-gray-300">
-          Kidaya is the simple, mobile-first money tracker built for African entrepreneurs—log sales in seconds, see
-          your profits instantly, and unlock funding as you grow.
+          Kidaya is a simple mobile tool built for small and growing business owners.
+          Track your sales and expenses, understand your profits,
+          and build the financial habits needed for sustainable growth—all from your phone.
         </p>
         <div class="flex flex-wrap gap-5 items-center mt-4 4k:gap-10 4k:mt-8">
           <button
             class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-7 py-3 rounded-full shadow transition 4k:px-12 4k:py-5 4k:text-xl">
             Try free trial
           </button>
-          <button class="flex items-center gap-2 font-medium transition 4k:text-lg text-gray-800 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">
+          <button
+            class="flex items-center gap-2 font-medium transition 4k:text-lg text-gray-800 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">
             <img src="/assets/play.svg" alt="Demo Icon" class="w-6 h-6 4k:w-10 4k:h-10" />
             View Demo
           </button>
@@ -91,8 +97,8 @@
           </a>
           <!-- Fast acceptance -->
           <div class="flex items-center gap-2 text-sm mt-2 4k:text-lg text-gray-500 dark:text-gray-400">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 4k:h-7 4k:w-7 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 4k:h-7 4k:w-7 text-gray-400 dark:text-gray-500"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M12 6v6l4 2m-6 6a9 9 0 110-18 9 9 0 010 18z" />
             </svg>
@@ -107,7 +113,7 @@
           style="transform-origin: center" />
         <!-- User stats card -->
         <div :class="[
-            'rounded-xl shadow-lg px-4 py-2 flex items-center gap-3 4k:px-8 4k:py-4 4k:gap-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-w-[180px] 4k:min-w-[260px]',
+          'rounded-xl shadow-lg px-4 py-2 flex items-center gap-3 4k:px-8 4k:py-4 4k:gap-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-w-[180px] 4k:min-w-[260px]',
           isNarrow
             ? 'absolute bottom-4 left-1/2 -translate-x-1/2 top-auto right-auto'
             : 'absolute top-8 right-4 4k:top-20 4k:right-20'

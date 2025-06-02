@@ -2,12 +2,14 @@
 import FeaturesSection from './components/FeaturesSection.vue';
 import KidayaPromotion from './components/KidayaPromotion.vue';
 import LandingPage from './components/LandingPage.vue'
+import SecuritySection from './components/SecuritySection.vue';
 </script>
 
 <template>
   <LandingPage />
   <FeaturesSection />
   <KidayaPromotion />
+  <SecuritySection />
 </template>
 
 <style scoped></style>

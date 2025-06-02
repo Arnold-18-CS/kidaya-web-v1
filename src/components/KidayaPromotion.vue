@@ -3,7 +3,7 @@
         <!-- Decorative Image: Now at the top -->
         <div class="pointer-events-none select-none absolute top-0 right-10 hidden lg:block w-1/2 max-w-xl z-30"
             aria-hidden="true">
-            <img src="/assets/computer-screen.svg" alt="" class="w-full h-auto object-contain computer-screen-img"
+            <img src="/assets/computer-screen.png" alt="" class="w-full h-auto object-contain computer-screen-img"
                 draggable="false" style="transform: scale(1); transform-origin: top right;" />
         </div>
 
@@ -106,7 +106,7 @@
                             </p>
                         </div>
                     </div>
-                    <img src="/assets/happy-customer.jpg" alt="Happy Kidaya customer" class="w-full mx-auto mt-20 rounded-3xl object-cover max-h-[400px]" draggable="false" loading="lazy" />
+                    <img src="/assets/happy-customer.jpg" alt="Happy Kidaya customer" class="w-full mx-auto mt-20 rounded-3xl object-cover max-h-[600px]" draggable="false" loading="lazy" />
                 </div>
             </div>
         </section>

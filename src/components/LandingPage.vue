@@ -184,7 +184,7 @@
               alt="User 1" />
             <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/avatar1.svg"
               alt="User 2" />
-            <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/avatar3.jpg"
+            <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/happy-customer.jpg"
               alt="User 3" />
           </div>
           <div>

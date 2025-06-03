@@ -1,30 +1,18 @@
 <script setup>
-import FeaturesSection from './components/FeaturesSection.vue';
-import FinalCTA from './components/FinalCTA.vue';
-import KidayaPromotion from './components/KidayaPromotion.vue';
-import LandingPage from './components/LandingPage.vue'
-import MainFooter from './components/MainFooter.vue';
-import PricingSection from './components/PricingSection.vue';
-import SecuritySection from './components/SecuritySection.vue';
-import TestimonialSection from './components/TestimonialSection.vue';
-import WhatKidaya from './components/WhatKidaya.vue';
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
   <div class="app-container overflow-clip font-poppins">
-    <LandingPage />
-    <WhatKidaya />
-    <FeaturesSection />
-    <KidayaPromotion />
-    <SecuritySection />
-    <PricingSection />
-    <TestimonialSection />
-    <FinalCTA />
-    <MainFooter />
+    <router-view />
   </div>
 </template>
 
 <style scoped>
+html {
+  scroll-behavior: smooth;
+}
+
 .app-container {
   min-height: 100vh;
   width: 100vw;

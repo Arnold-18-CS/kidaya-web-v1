@@ -138,8 +138,7 @@
           </a>
         </div>
         <!-- Store Buttons and Fast Acceptance -->
-        <div v-show="!isNarrow"
-            class="flex gap-4 items-center justify-center mt-8 4k:gap-12 4k:mt-16 md:justify-start">
+        <div v-show="!isNarrow" class="flex gap-4 items-center justify-center mt-8 4k:gap-12 4k:mt-16 md:justify-start">
           <!-- App Store Button -->
           <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank"
             rel="noopener"
@@ -161,7 +160,8 @@
             </div>
           </a>
           <!-- Fast acceptance -->
-          <div class="flex items-center gap-2 text-base mt-10 4k:text-lg text-gray-500 dark:text-gray-400 whitespace-nowrap">
+          <div
+            class="flex items-center gap-2 text-base mt-10 4k:text-lg text-gray-500 dark:text-gray-400 whitespace-nowrap">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 4k:h-7 4k:w-7 text-gray-400 dark:text-gray-500"
               fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -175,14 +175,14 @@
       <!-- RIGHT -->
       <div class="relative flex justify-center items-center">
         <img src="/assets/hero-girl.png" alt="Happy entrepreneur"
-          class="w-full max-w-md mx-auto scale-125 md:scale-150 4k:max-w-2xl 4k:scale-150" loading="lazy"
+          class="w-full max-w-md mx-auto scale-125 md:scale-150 4k:max-w-2xl 4k:scale-150" loading="eager"
           style="transform-origin: center" />
         <!-- User stats card -->
         <div :class="[
-          'rounded-xl shadow-lg px-4 py-2 flex items-center gap-3 4k:px-8 4k:py-4 4k:gap-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-w-[180px] 4k:min-w-[260px]',
+          'rounded-xl ml-5 shadow-lg px-4 py-2 flex items-center gap-4 4k:px-8 4k:py-4 4k:gap-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-w-[160px] 4k:min-w-[260px]',
           isNarrow
-            ? 'absolute bottom-4 left-1/2 -translate-x-1/2 top-auto right-auto'
-            : 'absolute top-8 right-4 4k:top-20 4k:right-20'
+            ? 'absolute bottom-8 left-1/2 -translate-x-1/2 top-auto right-auto'
+            : 'absolute top-25 right-7 4k:top-20 4k:right-20'
         ]">
           <div class="flex -space-x-2 4k:-space-x-4">
             <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/avatar1.jpg"
@@ -192,9 +192,10 @@
             <img class="w-8 h-8 rounded-full border-2 border-white 4k:w-16 4k:h-16" src="/assets/happy-customer.jpg"
               alt="User 3" />
           </div>
-          <div>
-            <p class="text-sm font-semibold 4k:text-2xl">120K+</p>
-            <p class="text-xs 4k:text-lg text-gray-500 dark:text-gray-400">Active users</p>
+          <div class="flex flex-col justify-center items-center text-center">
+            <p class="text-sm font-semibold 4k:text-2xl">17</p>
+            <p class="text-xs 4k:text-lg text-gray-500 dark:text-gray-400">Customer</p>
+            <p class="text-xs 4k:text-lg text-gray-500 dark:text-gray-400">Invoices</p>
           </div>
         </div>
         <!-- Payment card -->

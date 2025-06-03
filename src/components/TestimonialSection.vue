@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gray-100 dark:bg-gray-800 py-16 px-6 md:px-16 font-urbanist relative">
+    <section class="bg-gray-100 dark:bg-gray-800 py-16 px-6 md:px-16 relative">
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-col md:flex-row items-start gap-8">
                 <!-- Left Section -->

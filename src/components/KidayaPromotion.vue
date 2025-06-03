@@ -1,5 +1,5 @@
 <template>
-    <section class="relative font-urbanist">
+    <section class="relative">
         <!-- Decorative Image: Now at the top -->
         <div class="pointer-events-none select-none absolute top-0 right-5 hidden lg:block w-1/3 max-w-xl z-30"
             aria-hidden="true">
@@ -9,7 +9,7 @@
 
         <!-- Main Content -->
         <section
-            class="relative z-10 py-24 px-6 md:px-20 font-urbanist bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-hidden">
+            class="relative z-10 py-24 px-6 md:px-20 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-hidden">
 
             <!-- Why Kidaya Heading + Description -->
             <div class="mb-20 max-w-2xl">

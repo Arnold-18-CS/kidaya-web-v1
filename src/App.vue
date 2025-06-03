@@ -11,7 +11,7 @@ import WhatKidaya from './components/WhatKidaya.vue';
 </script>
 
 <template>
-  <div class="app-container">
+  <div class="app-container overflow-clip font-poppins">
     <LandingPage />
     <WhatKidaya />
     <FeaturesSection />

@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gray-50 dark:bg-gray-900 py-16 px-6 md:px-16 font-urbanist">
+    <section class="bg-gray-50 dark:bg-gray-900 py-16 px-6 md:px-16">
         <div class="max-w-6xl mx-auto">
             <!-- Header and Button -->
             <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-10 gap-0">

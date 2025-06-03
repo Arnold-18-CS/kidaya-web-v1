@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 bg-green-100 dark:bg-gray-900 text-center font-urbanist">
+  <section class="py-20 bg-green-100 dark:bg-gray-900 text-center">
     <h3 class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 uppercase mb-2">Features</h3>
     <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-12 max-w-2xl mx-auto">
       Run your business smarter, every day. </h2>

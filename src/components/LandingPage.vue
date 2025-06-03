@@ -1,5 +1,5 @@
 <template>
-  <section :class="['min-h-screen bg-gradient-to-r py-12 px-6 md:px-20 flex flex-col font-urbanist',
+  <section :class="['min-h-screen bg-gradient-to-r py-12 px-6 md:px-20 flex flex-col',
     darkMode
       ? 'from-gray-900 via-gray-800 to-purple-950 text-gray-100'
       : 'from-[#e2eaff] via-[#fff8e4] to-purple-100 text-gray-900'

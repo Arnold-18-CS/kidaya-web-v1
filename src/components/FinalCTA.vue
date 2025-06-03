@@ -1,5 +1,5 @@
 <template>
-    <section class="relative py-8 px-4 sm:px-6 md:px-16 font-urbanist overflow-hidden dark:bg-gray-800">
+    <section class="relative py-8 px-4 sm:px-6 md:px-16 overflow-hidden dark:bg-gray-800">
         <div class="mt-20 mb-20 py-32 relative z-0">
             <!-- Black Overlay -->
             <div class="absolute inset-0 z-10 flex items-center justify-center">

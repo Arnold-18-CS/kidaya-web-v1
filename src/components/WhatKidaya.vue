@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16 bg-white dark:bg-gray-900 text-center font-urbanist px-4">
+    <section class="py-16 bg-white dark:bg-gray-900 text-center px-4">
         <h3 class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 uppercase mb-2 tracking-widest">
             What is Kidaya?
         </h3>

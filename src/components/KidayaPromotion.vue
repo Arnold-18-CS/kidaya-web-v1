@@ -167,11 +167,3 @@
         </section>
     </section>
 </template>
-
-<style scoped>
-@media (max-width: 1300px) {
-    .computer-screen-img {
-        transform: scale(1.2) !important;
-    }
-}
-</style>

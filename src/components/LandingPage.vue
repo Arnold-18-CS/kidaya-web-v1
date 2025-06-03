@@ -85,11 +85,14 @@
             <a href="#how-it-works"
               class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300"
               @click="drawerOpen = false">Benefits</a>
-            <button
-              class="mt-8 px-5 py-2 rounded-lg bg-purple-600 text-white font-semibold shadow hover:bg-purple-700 transition"
-              @click="drawerOpen = false">
-              Log in
-            </button>
+            <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank"
+              rel="noopener">
+              <button
+                class="mt-8 px-5 py-2 rounded-lg bg-purple-600 text-white font-semibold shadow hover:bg-purple-700 transition"
+                @click="drawerOpen = false">
+                Log in
+              </button>
+            </a>
           </div>
         </div>
       </transition>
@@ -102,12 +105,12 @@
       <div class="space-y-8 flex flex-col items-center text-center md:items-start md:text-left"
         :class="{ '4k:space-y-16': is4K }">
         <!-- Login button for mobile/desktop -->
-        <div class="w-full flex justify-center mb-2 md:mb-0 md:justify-start">
+        <!-- <div class="w-full flex justify-center mb-2 md:mb-0 md:justify-start">
           <button
             class="px-5 py-2 rounded-lg bg-purple-600 text-white font-semibold shadow hover:bg-purple-700 transition md:hidden">
             Log in
           </button>
-        </div>
+        </div> -->
         <div>
           <p class="text-sm font-semibold mb-2 tracking-wide 4k:text-base text-purple-600 dark:text-purple-300">
             Track better. Plan smarter. Grow stronger.

@@ -4,7 +4,7 @@
         <div class="pointer-events-none select-none absolute top-0 right-5 hidden lg:block w-1/3 max-w-xl z-30"
             aria-hidden="true">
             <img src="/assets/computer-screen.png" alt="" class="w-full h-auto object-contain computer-screen-img"
-                draggable="false" style="transform: scale(1); transform-origin: top right;" />
+                draggable="false" style="transform: scale(1.4); transform-origin: top right;" />
         </div>
 
         <!-- Main Content -->
@@ -171,7 +171,7 @@
 <style scoped>
 @media (max-width: 1300px) {
     .computer-screen-img {
-        transform: scale(0.5) !important;
+        transform: scale(1.2) !important;
     }
 }
 </style>

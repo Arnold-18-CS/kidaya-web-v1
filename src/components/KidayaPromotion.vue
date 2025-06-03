@@ -10,23 +10,68 @@
         <!-- Main Content -->
         <section
             class="relative z-10 py-24 px-6 md:px-20 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 overflow-hidden">
-
-            <!-- Why Kidaya Heading + Description -->
-            <div class="mb-20 max-w-2xl">
-                <h3 class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 uppercase mb-2 tracking-widest">
-                    Why Kidaya?
-                </h3>
-                <h2
-                    class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-8 max-w-4xl mx-auto leading-tight">
-                    Clarity is powerful and you deserves it.
-                </h2>
-                <p class="text-lg text-gray-700 dark:text-gray-300">
-                    We built Kidaya because too many great businesses struggle simply because they don’t have visibility
-                    into their numbers.
-                    We believe clarity is power — and that every small business deserves tools that help them grow,
-                    plan, and prepare for funding.
-                </p>
+            <!-- Desktop/Tablet: Text only -->
+            <div class="hidden md:block max-w-5xl mx-auto">
+                <div class="w-full md:w-1/2 mb-10 md:mb-0 md:pr-12">
+                    <h3
+                        class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 uppercase mb-2 tracking-widest">
+                        Why Kidaya?
+                    </h3>
+                    <h2
+                        class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-8 max-w-4xl leading-tight">
+                        Clarity is powerful and you deserves it.
+                    </h2>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">
+                        We built Kidaya because too many great businesses struggle simply because they don’t have
+                        visibility
+                        into their numbers.
+                        We believe clarity is power — and that every small business deserves tools that help them grow,
+                        plan, and prepare for funding.
+                    </p>
+                </div>
             </div>
+            <!-- Mobile: Side-by-side layout for text/button (right) and image/Google Play (left), no overlap -->
+            <div
+                class="md:hidden flex flex-row items-center justify-center max-w-2xl mx-auto bg-gray-100 dark:bg-gray-800 px-4 py-8 rounded-xl space-x-4">
+                <!-- Right: Text and Get Started button -->
+                <div class="flex-1 flex flex-col items-center text-left space-y-4">
+                    <div>
+                        <h3
+                            class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase mb-1 tracking-widest">
+                            Why Kidaya?
+                        </h3>
+                        <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-2 leading-tight">
+                            Clarity is powerful and you deserves it.
+                        </h2>
+                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">
+                            We built Kidaya because too many great businesses struggle simply because they don’t have
+                            visibility into their numbers.
+                        </p>
+                    </div>
+                    <a href="#" target="_blank" rel="noopener"
+                        class="w-full px-2 py-2 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full transition duration-200 text-center"
+                        style="min-width: 120px; font-size: max(0.85rem, min(1rem, 3.5vw));">
+                        Get Started Now
+                    </a>
+                </div>
+                
+                <!-- Left: Image and Google Play button stacked -->
+                <div class="flex flex-col items-center space-y-3 flex-shrink-0 w-36">
+                    <img src="/assets/phone-screen.png" alt="Kidaya App Preview"
+                        class="w-28 h-auto object-contain mx-auto mb-10 mt-10"
+                        style="transform: scale(2.2); transform-origin: center;" />
+                    <a href="#"
+                        class="flex items-center bg-black rounded-lg px-4 py-2 max-h-[44px] min-w-[120px] max-w-[150px] hover:scale-105 transition">
+                        <img src="/assets/playstore.svg" alt="Google Play" class="h-7" />
+                        <div class="flex flex-col ml-2">
+                            <span class="text-white uppercase text-[10px] leading-none">Get it on</span>
+                            <span class="text-white font-bold leading-tight text-xs">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+
         </section>
 
         <section class="bg-gray-100 dark:bg-gray-800 py-24 px-6 md:px-20"
@@ -115,8 +160,7 @@
                     <div class="flex justify-center">
                         <img src="/assets/happy-customer.jpg" alt="Happy Kidaya customer"
                             class="hidden md:inline-block mt-10 rounded-3xl object-cover"
-                            style="width: 1150px; max-width: 100%;"
-                            draggable="false" loading="lazy" />
+                            style="width: 1150px; max-width: 100%;" draggable="false" loading="lazy" />
                     </div>
                 </div>
             </div>

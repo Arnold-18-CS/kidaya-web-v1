@@ -30,37 +30,40 @@
                     </p>
                 </div>
             </div>
-            <!-- Mobile: Side-by-side layout for text/button (right) and image/Google Play (left), no overlap -->
+            <!-- Mobile: 2x2 grid for text, image, Get Started, and Google Play button -->
             <div
-                class="md:hidden flex flex-row items-center justify-center max-w-2xl mx-auto bg-gray-100 dark:bg-gray-800 px-4 py-8 rounded-xl space-x-4">
-                <!-- Right: Text and Get Started button -->
-                <div class="flex-1 flex flex-col items-center text-left space-y-4">
-                    <div>
-                        <h3
-                            class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase mb-1 tracking-widest">
-                            Why Kidaya?
-                        </h3>
-                        <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-2 leading-tight">
-                            Clarity is powerful and you deserves it.
-                        </h2>
-                        <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">
-                            We built Kidaya because too many great businesses struggle simply because they don’t have
-                            visibility into their numbers.
-                        </p>
-                    </div>
-                    <a href="#" target="_blank" rel="noopener"
+                class="md:hidden grid grid-cols-2 grid-rows-3 gap-2 items-center justify-center max-w-2xl mx-auto bg-gray-100 dark:bg-gray-800 px-4 py-8 rounded-xl">
+                <!-- Top Left: Text -->
+                <div class="col-span-1 row-span-2 flex flex-col items-start space-y-2">
+                    <h3
+                        class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase mb-1 tracking-widest">
+                        Why Kidaya?
+                    </h3>
+                    <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-2 leading-tight">
+                        Clarity is powerful and you deserves it.
+                    </h2>
+                    <p class="text-xs text-gray-700 dark:text-gray-300 mb-2">
+                        We built Kidaya because too many great businesses struggle simply because they don’t have
+                        visibility into their numbers.
+                    </p>
+                </div>
+                <!-- Top Right: Image -->
+                <div class="col-span-1 row-span-2 flex justify-center">
+                    <img src="/assets/phone-screen.png" alt="Kidaya App Preview"
+                        class="w-28 h-auto object-contain mx-auto"
+                        style="transform: scale(1.8); transform-origin: center;" />
+                </div>
+                <!-- Bottom Left: Get Started button -->
+                <div class="col-span-1 row-span-1 flex justify-start">
+                    <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank" rel="noopener"
                         class="w-full px-2 py-2 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full transition duration-200 text-center"
                         style="min-width: 120px; font-size: max(0.85rem, min(1rem, 3.5vw));">
                         Get Started Now
                     </a>
                 </div>
-                
-                <!-- Left: Image and Google Play button stacked -->
-                <div class="flex flex-col items-center space-y-3 flex-shrink-0 w-36">
-                    <img src="/assets/phone-screen.png" alt="Kidaya App Preview"
-                        class="w-28 h-auto object-contain mx-auto mb-10 mt-10"
-                        style="transform: scale(2.2); transform-origin: center;" />
-                    <a href="#"
+                <!-- Bottom Right: Google Play button -->
+                <div class="col-span-1 row-span-1 flex justify-center">
+                    <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank" rel="noopener"
                         class="flex items-center bg-black rounded-lg px-4 py-2 max-h-[44px] min-w-[120px] max-w-[150px] hover:scale-105 transition">
                         <img src="/assets/playstore.svg" alt="Google Play" class="h-7" />
                         <div class="flex flex-col ml-2">
@@ -69,7 +72,6 @@
                         </div>
                     </a>
                 </div>
-                
             </div>
 
         </section>
@@ -89,7 +91,7 @@
                         </h2>
                     </div>
                     <div class="mt-6 md:mt-0 md:ml-8 flex-shrink-0">
-                        <a href="#" target="_blank" rel="noopener"
+                        <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank" rel="noopener"
                             class="px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full transition duration-200 w-full md:w-auto text-center hidden md:inline-block">
                             Get Started Now
                         </a>
@@ -104,7 +106,7 @@
                             class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative flex flex-col items-center md:items-start text-center md:text-left">
                             <div class="relative w-16 h-16 flex items-center justify-center mx-auto md:mx-0">
                                 <span
-                                    class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">01</span>
+                                    class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none hidden md:inline-block">01</span>
                                 <img src="/assets/step1.svg" alt=""
                                     class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
                             </div>
@@ -124,7 +126,7 @@
                             class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative flex flex-col items-center md:items-start text-center md:text-left">
                             <div class="relative w-16 h-16 flex items-center justify-center mx-auto md:mx-0">
                                 <span
-                                    class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">02</span>
+                                    class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none hidden md:inline-block">02</span>
                                 <img src="/assets/step2.svg" alt=""
                                     class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
                             </div>
@@ -144,7 +146,7 @@
                             class="p-8 px-6 md:px-12 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative flex flex-col items-center md:items-start text-center md:text-left">
                             <div class="relative w-16 h-16 flex items-center justify-center mx-auto md:mx-0">
                                 <span
-                                    class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none">03</span>
+                                    class="text-gray-600 dark:text-gray-50 text-5xl font-bold opacity-10 select-none hidden md:inline-block">03</span>
                                 <img src="/assets/step3.svg" alt=""
                                     class="w-10 h-10 object-contain z-10 absolute right-6 top-8" aria-hidden="true" />
                             </div>

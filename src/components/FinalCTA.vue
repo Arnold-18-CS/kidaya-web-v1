@@ -19,14 +19,21 @@
                     With Kidaya, you’ll always know where your business stands—and where it’s going next.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-4">
-                    <button
-                        class="w-full sm:w-auto px-6 py-4 bg-purple-700 hover:bg-purple-800 text-white font-semibold rounded-full shadow-lg transition duration-200 text-base sm:text-lg">
-                        Download the App
-                    </button>
-                    <button
-                        class="w-full sm:w-auto px-6 py-4 bg-transparent border border-white text-white font-semibold rounded-full shadow-lg transition duration-200 hover:bg-white hover:text-purple-700 text-base sm:text-lg">
-                        Get Started Now
-                    </button>
+                    <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile " target="_blank"
+                        rel="noopener" class="w-full sm:w-auto">
+                        <button
+                            class="w-full sm:w-auto px-6 py-4 bg-purple-700 hover:bg-purple-800 text-white font-semibold rounded-full shadow-lg transition duration-200 text-base sm:text-lg">
+                            Download the App
+                        </button>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile"
+                        target="_blank" rel="noopener"
+                        class="w-full sm:w-auto">
+                        <button
+                            class="w-full sm:w-auto px-6 py-4 bg-transparent border border-white text-white font-semibold rounded-full shadow-lg transition duration-200 hover:bg-white hover:text-purple-700 text-base sm:text-lg">
+                            Get Started Now
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

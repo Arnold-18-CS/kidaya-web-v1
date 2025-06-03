@@ -12,13 +12,13 @@
       </div>
       <!-- Desktop Navbar -->
       <div class="hidden md:flex gap-8">
-        <a href="#"
+        <a href="#features"
           class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Features</a>
-        <a href="#"
+        <a href="#pricing"
           class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Pricing</a>
-        <a href="#"
+        <a href="#security"
           class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Security</a>
-        <a href="#"
+        <a href="#how-it-works"
           class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">Benefits</a>
       </div>
       <div class="flex items-center gap-4">
@@ -73,16 +73,16 @@
             </button>
             <br><br>
 
-            <a href="#"
+            <a href="#features"
               class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300"
               @click="drawerOpen = false">Features</a>
-            <a href="#"
+            <a href="#pricing"
               class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300"
               @click="drawerOpen = false">Pricing</a>
-            <a href="#"
+            <a href="#security"
               class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300"
               @click="drawerOpen = false">Security</a>
-            <a href="#"
+            <a href="#how-it-works"
               class="font-medium transition text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300"
               @click="drawerOpen = false">Benefits</a>
             <button
@@ -99,72 +99,77 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center flex-1"
       :class="{ '4k:grid-cols-2 4k:gap-32 4k:px-64': is4K }">
       <!-- LEFT -->
-      <div
-      class="space-y-8 flex flex-col items-center text-center md:items-start md:text-left"
-      :class="{ '4k:space-y-16': is4K }">
-      <!-- Login button for mobile/desktop -->
-      <div class="w-full flex justify-center mb-2 md:mb-0 md:justify-start">
-        <button
-        class="px-5 py-2 rounded-lg bg-purple-600 text-white font-semibold shadow hover:bg-purple-700 transition md:hidden">
-        Log in
-        </button>
-      </div>
-      <div>
-        <p class="text-sm font-semibold mb-2 tracking-wide 4k:text-base text-purple-600 dark:text-purple-300">
-        Track better. Plan smarter. Grow stronger.
+      <div class="space-y-8 flex flex-col items-center text-center md:items-start md:text-left"
+        :class="{ '4k:space-y-16': is4K }">
+        <!-- Login button for mobile/desktop -->
+        <div class="w-full flex justify-center mb-2 md:mb-0 md:justify-start">
+          <button
+            class="px-5 py-2 rounded-lg bg-purple-600 text-white font-semibold shadow hover:bg-purple-700 transition md:hidden">
+            Log in
+          </button>
+        </div>
+        <div>
+          <p class="text-sm font-semibold mb-2 tracking-wide 4k:text-base text-purple-600 dark:text-purple-300">
+            Track better. Plan smarter. Grow stronger.
+          </p>
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 4k:text-8xl text-gray-900 dark:text-white">
+            Is your
+            <span class="underline decoration-purple-500 decoration-4 underline-offset-4">business</span><br />
+            really making a profit?
+          </h1>
+        </div>
+        <p
+          class="font-semibold text-lg max-w-xl 4k:text-2xl 4k:max-w-3xl text-gray-600 dark:text-gray-300 mx-auto md:mx-0">
+          If you're not sure, you're not alone. Many small business owners hustle daily without clear visibility into
+          their numbers. Kidaya brings clarity to your hustle with simple tools to stay on top of your business and grow
+          with confidence—all from your phone.
         </p>
-        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 4k:text-8xl text-gray-900 dark:text-white">
-        Is your
-        <span class="underline decoration-purple-500 decoration-4 underline-offset-4">business</span><br />
-        really making a profit?
-        </h1>
-      </div>
-      <p class="font-semibold text-lg max-w-xl 4k:text-2xl 4k:max-w-3xl text-gray-600 dark:text-gray-300 mx-auto md:mx-0">
-        If you're not sure, you're not alone. Many small business owners hustle daily without clear visibility into
-        their numbers. Kidaya brings clarity to your hustle with simple tools to stay on top of your business and grow
-        with confidence—all from your phone.
-      </p>
-      <div class="flex flex-wrap gap-5 items-center justify-center mt-4 4k:gap-10 4k:mt-8 md:justify-start">
-        <button
-        class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-7 py-3 rounded-full shadow transition 4k:px-12 4k:py-5 4k:text-xl">
-        Try free trial
-        </button>
-        <button
-        class="flex items-center gap-2 font-medium transition 4k:text-lg text-gray-800 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">
-        <img src="/assets/play.svg" alt="Demo Icon" class="dark:text-white w-6 h-6 4k:w-10 4k:h-10" />
-        View Demo
-        </button>
-      </div>
-      <!-- Store Buttons and Fast Acceptance -->
-      <div v-show="!isNarrow" class="flex flex-wrap gap-6 items-center justify-center mt-8 4k:gap-12 4k:mt-16 md:justify-start">
-        <!-- App Store Button -->
-        <a href="#"
-        class="flex items-center bg-black rounded-lg px-5 py-2 min-w-[170px] max-w-[200px] hover:scale-105 transition 4k:px-10 4k:py-4 4k:min-w-[240px] 4k:max-w-[300px]">
-        <img src="/assets/app-store.svg" alt="App Store" class="h-9 4k:h-16" />
-        <div class="flex flex-col ml-3 4k:ml-6">
-          <span class="text-white text-xs 4k:text-base">Download on the</span>
-          <span class="text-white font-bold text-lg leading-tight 4k:text-2xl">App Store</span>
+        <div class="flex flex-wrap gap-5 items-center justify-center mt-4 4k:gap-10 4k:mt-8 md:justify-start">
+          <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank"
+            rel="noopener"
+            class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-7 py-3 rounded-full shadow transition 4k:px-12 4k:py-5 4k:text-xl">
+            Try free trial
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank"
+            rel="noopener"
+            class="flex items-center gap-2 font-medium transition 4k:text-lg text-gray-800 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-300">
+            <img src="/assets/play.svg" alt="Demo Icon" class="dark:text-white w-6 h-6 4k:w-10 4k:h-10" />
+            View Demo
+          </a>
         </div>
-        </a>
-        <!-- Google Play Button -->
-        <a href="#"
-        class="flex items-center bg-black rounded-lg px-5 py-2 min-w-[170px] max-w-[200px] hover:scale-105 transition 4k:px-10 4k:py-4 4k:min-w-[240px] 4k:max-w-[300px]">
-        <img src="/assets/playstore.svg" alt="Google Play" class="h-9 4k:h-16" />
-        <div class="flex flex-col ml-3 4k:ml-6">
-          <span class="text-white text-xs 4k:text-base">Get it on</span>
-          <span class="text-white font-bold text-lg leading-tight 4k:text-2xl">Google Play</span>
+        <!-- Store Buttons and Fast Acceptance -->
+        <div v-show="!isNarrow"
+            class="flex gap-4 items-center justify-center mt-8 4k:gap-12 4k:mt-16 md:justify-start">
+          <!-- App Store Button -->
+          <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank"
+            rel="noopener"
+            class="flex items-center bg-black rounded-lg px-5 py-2 min-w-[170px] max-w-[200px] hover:scale-105 transition 4k:px-10 4k:py-4 4k:min-w-[240px] 4k:max-w-[300px]">
+            <img src="/assets/app-store.svg" alt="App Store" class="h-9 4k:h-16" />
+            <div class="flex flex-col whitespace-nowrap ml-3 4k:ml-6">
+              <span class="text-white text-xs 4k:text-base">Download on the</span>
+              <span class="text-white font-bold text-lg leading-tight 4k:text-2xl">App Store</span>
+            </div>
+          </a>
+          <!-- Google Play Button -->
+          <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank"
+            rel="noopener"
+            class="flex items-center bg-black rounded-lg px-5 py-2 min-w-[170px] max-w-[200px] hover:scale-105 transition 4k:px-10 4k:py-4 4k:min-w-[240px] 4k:max-w-[300px]">
+            <img src="/assets/playstore.svg" alt="Google Play" class="h-9 4k:h-16" />
+            <div class="flex flex-col whitespace-nowrap ml-3 4k:ml-6">
+              <span class="text-white text-xs 4k:text-base">Get it on</span>
+              <span class="text-white font-bold text-lg leading-tight 4k:text-2xl">Google Play</span>
+            </div>
+          </a>
+          <!-- Fast acceptance -->
+          <div class="flex items-center gap-2 text-base mt-10 4k:text-lg text-gray-500 dark:text-gray-400 whitespace-nowrap">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 4k:h-7 4k:w-7 text-gray-400 dark:text-gray-500"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 6v6l4 2m-6 6a9 9 0 110-18 9 9 0 010 18z" />
+            </svg>
+            <span>Fast acceptance</span>
+          </div>
         </div>
-        </a>
-        <!-- Fast acceptance -->
-        <div class="flex items-center gap-2 text-base mt-10 4k:text-lg text-gray-500 dark:text-gray-400">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 4k:h-7 4k:w-7 text-gray-400 dark:text-gray-500"
-          fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M12 6v6l4 2m-6 6a9 9 0 110-18 9 9 0 010 18z" />
-        </svg>
-        <span>Fast acceptance</span>
-        </div>
-      </div>
 
       </div>
       <!-- RIGHT -->
@@ -248,6 +253,10 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
+html {
+  scroll-behavior: smooth;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s;

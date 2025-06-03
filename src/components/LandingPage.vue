@@ -194,7 +194,7 @@
         </div>
         <!-- Payment card -->
         <div v-show="!isNarrow" :class="[
-          'absolute bottom-0 left-4 shadow-xl rounded-2xl px-5 py-4 w-64 4k:left-20 4k:bottom-10 4k:px-10 4k:py-8 4k:w-[420px] bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100'
+          'absolute bottom-[-60px] left-4 shadow-xl rounded-2xl px-5 py-4 w-64 4k:left-20 4k:bottom-10 4k:px-10 4k:py-8 4k:w-[420px] bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100'
         ]">
           <p class="text-xs mb-1 4k:text-lg text-gray-400 dark:text-gray-400">Payment Received</p>
           <p class="text-lg font-semibold 4k:text-3xl text-purple-700 dark:text-purple-300">

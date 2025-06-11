@@ -5,7 +5,7 @@
     <FeaturesSection id="features" />
     <KidayaPromotion id="how-it-works"/>
     <SecuritySection id="security" />
-    <PricingSection id="pricing"/>
+    <!-- <PricingSection id="pricing"/> -->
     <TestimonialSection id="testimonial" />
     <FinalCTA />
     <MainFooter />

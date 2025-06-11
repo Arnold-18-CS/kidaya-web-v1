@@ -178,7 +178,7 @@
       <!-- RIGHT -->
       <div class="relative flex justify-center items-center">
         <img src="/assets/hero-girl.png" alt="Happy entrepreneur"
-          class="w-full max-w-md mx-auto scale-125 md:scale-150 4k:max-w-2xl 4k:scale-150" loading="eager"
+          class="w-full max-w-md mx-auto md:scale-150 4k:max-w-2xl 4k:scale-150" loading="eager"
           style="transform-origin: center" />
         <!-- User stats card -->
         <div :class="[

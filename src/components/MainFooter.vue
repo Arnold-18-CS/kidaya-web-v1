@@ -53,9 +53,14 @@
                   Terms & conditions
                 </RouterLink>
               </li>
-              <li>
+              <!-- <li>
                 <RouterLink to="/404" class="hover:text-purple-600 dark:hover:text-purple-400 transition duration-200">
                   404
+                </RouterLink>
+              </li> -->
+              <li>
+                <RouterLink to="/delete" class="hover:text-purple-600 dark:hover:text-purple-400 transition duration-200">
+                  Delete my account
                 </RouterLink>
               </li>
             </ul>

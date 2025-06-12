@@ -3,6 +3,7 @@ import TermsOfService from '../components/TermsOfService.vue';
 import PrivacyPolicy from '../components/PrivacyPolicy.vue';
 import NotFound from '../components/NotFound.vue';
 import Home from '../components/Home.vue';
+import DeleteAccount from '../components/DeleteAccount.vue';
 
 const routes = [
     {
@@ -19,6 +20,11 @@ const routes = [
         path: '/privacy',
         name: 'PrivacyPolicy',
         component: PrivacyPolicy
+    },
+    {
+        path: '/delete',
+        name: 'DeleteAccount',
+        component: DeleteAccount
     },
     {
         path: '/:pathMatch(.*)*',

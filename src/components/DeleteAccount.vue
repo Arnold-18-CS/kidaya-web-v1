@@ -36,7 +36,7 @@
 
                 <form @submit.prevent="handleDeleteAccount" class="space-y-6">
                     <div>
-                        <label for="password" class="block text-sm font-medium mb-2">Enter your email address below to confirm your account deletion request</label>
+                        <label for="email" class="block text-sm font-medium mb-2">Enter your email address below to confirm your account deletion request</label>
                         <input 
                             type="email" 
                             id="email" 
@@ -75,12 +75,14 @@
 <script setup>
 import { ref } from 'vue';
 import { RouterLink } from 'vue-router';
+import { useDarkMode } from '../composables/useDarkMode';
 
 const email = ref('');
 const confirmed = ref(false);
+const { darkMode } = useDarkMode();
 
 const handleDeleteAccount = async () => {
-        if (!confirmed.value || !email.value) return;
+    if (!confirmed.value || !email.value) return;
     
     try {
         // TODO: Implement account deletion logic

@@ -113,7 +113,7 @@
         </div> -->
         <div>
           <p class="text-sm font-semibold mb-2 tracking-wide 4k:text-base text-purple-600 dark:text-purple-300">
-            Track better. Plan smarter. Grow stronger.
+            Track better. Plan smarter. Grow stronger.
           </p>
           <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 4k:text-8xl text-gray-900 dark:text-white">
             Is your
@@ -125,7 +125,7 @@
           class="font-semibold text-lg max-w-xl 4k:text-2xl 4k:max-w-3xl text-gray-600 dark:text-gray-300 mx-auto md:mx-0">
           If you're not sure, you're not alone. Many small business owners hustle daily without clear visibility into
           their numbers. Kidaya brings clarity to your hustle with simple tools to stay on top of your business and grow
-          with confidence—all from your phone.
+          with confidence—all from your phone.
         </p>
         <div class="flex flex-wrap gap-5 items-center justify-center mt-4 4k:gap-10 4k:mt-8 md:justify-start">
           <a href="https://play.google.com/store/apps/details?id=com.kidaya.africa.mobile" target="_blank"
@@ -220,10 +220,11 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { useDarkMode } from '../composables/useDarkMode';
 
 const isNarrow = ref(window.innerWidth <= 980)
 const is4K = ref(window.innerWidth >= 2560)
-const darkMode = ref(false)
+const { darkMode, toggleDarkMode } = useDarkMode();
 const drawerOpen = ref(false)
 
 function handleResize() {
@@ -233,22 +234,8 @@ function handleResize() {
   if (window.innerWidth > 980) drawerOpen.value = false
 }
 
-function toggleDarkMode() {
-  darkMode.value = !darkMode.value
-  if (darkMode.value) {
-    document.documentElement.classList.add('dark')
-  } else {
-    document.documentElement.classList.remove('dark')
-  }
-}
-
 onMounted(() => {
   window.addEventListener('resize', handleResize)
-  // Set initial dark mode from system preference
-  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    darkMode.value = true
-    document.documentElement.classList.add('dark')
-  }
 })
 
 onBeforeUnmount(() => {

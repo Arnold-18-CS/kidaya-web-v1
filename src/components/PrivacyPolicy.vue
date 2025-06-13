@@ -28,16 +28,14 @@
                         <li><strong>a) Information You Provide to Us</strong>
                             <ul class="list-disc list-inside ml-6 mt-2">
                                 <li><strong>i. Account Registration:</strong> Name, mobile number, email (if provided),
-                                    password, optional business details</li>
+                                    password, business name, password.</li>
                                 <li><strong>ii. App Usage:</strong> Sales, expenses, notes, tags, customer records</li>
                                 <li><strong>iii. Communication:</strong> Support requests, feedback forms</li>
                                 <li><strong>iv. Payment Information:</strong> Collected via third-party processor; we
                                     don’t store card details</li>
                             </ul>
                         </li>
-                        <li><strong>b) Information We Collect Automatically:</strong> Device info, IP, usage behavior,
-                            error logs</li>
-                        <li><strong>c) Information from Third Parties:</strong> Referral programs, federated login
+                        <li><strong>b) Information from Third Parties:</strong> Referral programs, federated login
                             providers (with your permission)</li>
                     </ul>
                 </div>
@@ -45,6 +43,7 @@
                 <div>
                     <h2 class="text-xl font-semibold mb-2">2. How We Use Your Information</h2>
                     <ul class="list-disc list-inside space-y-1">
+                        <li>Account creation</li>
                         <li>Deliver financial tracking features</li>
                         <li>Generate summaries, reports, and insights</li>
                         <li>Provide support and service updates</li>
